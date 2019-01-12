@@ -27,11 +27,9 @@ public class StudentAction extends ActionSupport{
         	
         	System.out.println("£¬nameÎª"+s.getStuName());
         }
-        return "whulistStu";
+        return "listStu";
     }
-    public StudentServiceInte getStudentService() {
-        return studentService;
-    }
+    
     public void setStudentService(StudentServiceInte studentService) {
         this.studentService = studentService;
     }
