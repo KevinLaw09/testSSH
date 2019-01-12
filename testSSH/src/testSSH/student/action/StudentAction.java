@@ -18,11 +18,16 @@ public class StudentAction extends ActionSupport{
         //调用模型层查询所有学生的信息
         listStu = studentService.listStu("from Student");
         for(Student s : listStu) {
+        	
+        	
+        	
         	System.out.print("id为"+s.getStuId());
+        	
+        	
         	
         	System.out.println("，name为"+s.getStuName());
         }
-        return "listStu";
+        return "whulistStu";
     }
     public StudentServiceInte getStudentService() {
         return studentService;
