@@ -19,6 +19,11 @@ public class StudentAction extends ActionSupport{
         listStu = studentService.listStu("from Student");
         for(Student s : listStu) {
         	System.out.print("idÎª"+s.getStuId());
+        	
+        	
+        	
+        	
+        	
         	System.out.println("£¬nameÎª"+s.getStuName());
         }
         return "listStu";
