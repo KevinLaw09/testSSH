@@ -20,10 +20,6 @@ public class StudentAction extends ActionSupport{
         for(Student s : listStu) {
         	System.out.print("idÎª"+s.getStuId());
         	
-        	
-        	
-        	
-        	
         	System.out.println("£¬nameÎª"+s.getStuName());
         }
         return "listStu";
