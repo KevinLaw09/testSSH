@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="testSSH.student.entity.Student" table="student">
+        <id name="stuId" column="id">
+            <!-- 自己管理主键 -->
+            <generator class="assigned"></generator>
+        </id>
+        <property name="stuName" column="name"></property>
+    </class>
+</hibernate-mapping>
