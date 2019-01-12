@@ -8,7 +8,7 @@
 <title>listStudent</title>
 </head>
 <body>
-    <h1>This is listStudent     page</h1>
+    <h1>This is listStudent  page</h1>
     <!-- 测试取值 -->
     <table border="1">
         <tr>
